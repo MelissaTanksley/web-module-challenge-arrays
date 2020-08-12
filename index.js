@@ -179,6 +179,22 @@ return filteredArray;
 console.log(filterByWord(originalFlavors, "Chocolate"));
 
 
+//Brit's example -- I literally did mine before her example
+
+function filterByWord(arr, string){
+    let newArr = [];
+    for (let i = 0; i < arr.length; i++){
+        if(arr[i].includes(string)){
+            newArr.push(arr[i]);
+
+        }
+    }
+    return newArry;
+}
+
+console.log(filterByWord(originalFlavors, 'Chocolate'));
+
+
 
 /* 🧁🍦🍨 STRETCH 🍨🍦🍫*/ 
 
